@@ -15,11 +15,16 @@
     </div>
     <script>
       function convert() {
-        const celcValue = Number(document.getElementByid("input").value);
+        const celcValue = Number(document.getElementById("input").value);
         const fahrenheitValue = (celcValue * 9) / 5 + 32;
-        const result = document.getElementByid("result");
+        const result = document.getElementById("result");
         result.innerHTML = fahrenheitValue.toFixed(2) + "°F";
-      }
+        
+        
+        
+      } 
+        
+      
     </script>
   </body>
 </html>
